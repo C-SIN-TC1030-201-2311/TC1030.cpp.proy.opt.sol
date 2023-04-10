@@ -6,5 +6,5 @@ private:
     double cargoAdicional;
 public:
     Sobre(std::string,std::string,std::string,std::string,std::string,std::string,std::string,std::string,std::string,std::string, double, double, double, double, double);
-    double calculaCosto();
+    double calculaCosto() override;
 };

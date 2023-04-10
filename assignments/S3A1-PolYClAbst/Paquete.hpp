@@ -7,5 +7,5 @@ private:
     double costoXKg;
 public:
     Paquete(std::string,std::string,std::string,std::string,std::string,std::string,std::string,std::string,std::string,std::string, double, double, double, double, double, double);
-    double calculaCosto();
+    double calculaCosto() override;
 };
